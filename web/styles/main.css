@@ -1,0 +1,126 @@
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Alegreya', serif;
+*/
+
+/*Backgrounds*/
+.home-page {
+    background-image: url("/img/home-back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.create-page {
+    background-image: url("/img/grapes2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.drop-page {
+    background-image: url("/img/wine-barrels.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form-page {
+    background-image: url("/img/wine-barrels2.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.view-page {
+    background-image: url("/img/grapes.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Text Styles*/
+
+.home-heading {
+    margin-left: 100px;
+    margin-top: 40px;
+    font-family: 'Lobster', cursive;
+    color: antiquewhite;
+    font-size: 50px;
+}
+.create-heading {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: antiquewhite;
+    font-size: 50px;
+}
+.about {
+    margin-top: 20px;
+    font-family: 'Alegreya', serif;
+    color: antiquewhite;
+}
+.about-two {
+    font-family: 'Alegreya', serif;
+    color: antiquewhite;
+}
+.about-text {
+    font-size: 27px;
+}
+.stroke {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.btn-font {
+    color: black;
+}
+.create-text {
+    font-family: 'Alegreya', serif;
+    color: antiquewhite;
+    font-size: 35px;
+}
+
+/*Flexbox*/
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.flex-table {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.wrow {
+    display: flex;
+    justify-content: space-around;
+}
+.dir-btn {
+    background-color: antiquewhite;
+    border: 1px solid black;
+}
+
+/*Table Properties*/
+.tables-row {
+    margin-top: 100px;
+}
+.wtr {
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+/*Images*/
+.glasses {
+    border-radius: 30px;
+}
+
+/*Extra margin buttons*/
+.ext-marg {
+    margin-top: 50px;
+}
+

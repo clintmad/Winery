@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app version="3.1"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                            http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>CreateTables</servlet-name>
+        <servlet-class>CreateTables</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateTables</servlet-name>
+        <url-pattern>/createtables</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DropTables</servlet-name>
+        <servlet-class>DropTables</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DropTables</servlet-name>
+        <url-pattern>/droptables</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CreateData</servlet-name>
+        <servlet-class>CreateData</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateData</servlet-name>
+        <url-pattern>/createdata</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ViewData</servlet-name>
+        <servlet-class>ViewData</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewData</servlet-name>
+        <url-pattern>/viewdata</url-pattern>
+    </servlet-mapping>
+</web-app>
